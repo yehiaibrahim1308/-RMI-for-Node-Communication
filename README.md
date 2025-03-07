@@ -2,7 +2,7 @@
  
 This project implements a distributed file system in Java utilizing Remote Method Invocation (RMI) for inter-node communication. The system supports basic file operations—upload, download, search, and delete—while ensuring consistency through a logical clock mechanism and ordering transactions using a priority queue. 
         
-               
+                
 # Components
 1. Node Class: Represents each node in the system, implementing the NodeI interface for remote method calls. It manages transactions, acknowledgments, and user interactions.
 2. Multicast Transaction: Initiates and multicasts transactions across nodes, ensuring synchronized logical clock values.
